@@ -1,0 +1,33 @@
+{
+    "name": "djam90/check-mot",
+    "description": "A PHP wrapper for the UK DVLA MOT history API.",
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "authors": [
+        {
+            "name": "Daniel Twigg",
+            "email": "dtwigg1990@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Djam90\\CheckMot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Djam90\\CheckMot\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
